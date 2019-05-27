@@ -13,7 +13,7 @@ func Test_largestSumNonAdjascent(t *testing.T) {
 	}{
 		{name:"test", args:args{data: []int{2, 4, 6, 2, 5}}, want: 13},
 		{name:"test", args:args{data: []int{2, 4, -1, 2, 5}}, want: 9},
-		{name:"test", args:args{data: []int{2, 4, -1, 2, -1}}, want: 6},
+		{name:"test", args:args{data: []int{5, 1 ,1 ,5}}, want: 10},
 
 	}
 	for _, tt := range tests {
